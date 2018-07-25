@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <EditText
+        android:id="@+id/etxt_url"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Enter URL"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="GO"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/etxt_bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="107dp"
+        android:text="Bookmark"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/google"
+        android:text="Google"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/btn_prothomalo"
+        android:layout_alignTop="@+id/btn_google"
+        android:background="@drawable/facebook"
+        android:text="Facebook"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btn_youtube"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_google"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/youtube"
+        android:text="You Tube" />
+
+    <Button
+        android:id="@+id/btn_prothomalo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_youtube"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/prothomalo"
+        android:text="Prothom Alo"
+        android:textSize="14sp" />
+
+</RelativeLayout>
